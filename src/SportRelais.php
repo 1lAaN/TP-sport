@@ -11,11 +11,11 @@ class SportRelais extends Sport {
         $this->distance = $uneDistance;
     }
 
-    public function getdescription (): string {
-        return parent::Getdescription() . " et la distance est de " . $this->distance . " mètres.";
-    }
-
     public function getDistance(): int {
         return $this->distance;
+    }
+
+    public function getDescription(): string {
+        return "Nom: " . $this->getNomSport() . "Nb" . $this->getNbJoueurs() . " Distance: " . $this->getDistance();
     }
 }

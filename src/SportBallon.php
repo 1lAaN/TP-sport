@@ -21,9 +21,11 @@ class SportBallon extends Sport {
         return $this->longueur;
     }
 
-    public function getDescription(): string{
-        return $this->description;
+    public function getDescription(): string {
+        return "Nom: " . $this->getNomSport() . "Nb" . $this->getNbJoueurs() . " Longueur: " . $this->getLongueur() . " Largeur: " . $this->getLargeur();
     }
+
+   
 
 
 

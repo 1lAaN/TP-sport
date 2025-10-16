@@ -17,7 +17,7 @@ class Sport {
     }
 
     public function getDescription(): string {
-        return "Sport: " . $this->nomSport . ", Nombre de joueurs: " . $this->nbJoueurs;
+        return "Nom: " . $this->getNomSport() . " Nb: " . $this->getNbJoueurs();
     }
 
     public function getNbJoueurs(): int {
