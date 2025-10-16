@@ -9,8 +9,8 @@ class SportBallon extends Sport {
 
     public function __construct(string $unNom, int $unNbJoueurs, int $uneLargeur, int $uneLongueur) {
         parent:: __construct($unNom, $unNbJoueurs);
-        $this->uneLargeur = $largeur;
-        $this->uneLongueur = $longueur;
+        $this->largeur = $uneLargeur;
+        $this->longueur = $uneLongueur;
     }
 
     public function getLargeur(): int{

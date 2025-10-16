@@ -1,6 +1,6 @@
 <?php
 
-namespace Sport\Dijon;
+namespace Sport;
 use Sport\Club;
 
 class Sport {
@@ -8,7 +8,7 @@ class Sport {
     private int $nbJoueurs;
 
     public function __construct(string $unNomSport, int $nbJoueurs) {
-        $this->nomSport = $nomSport;
+        $this->nomSport = $unNomSport;
         $this->nbJoueurs = $nbJoueurs;
     }
 
