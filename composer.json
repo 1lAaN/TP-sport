@@ -1,0 +1,15 @@
+{
+    "name": "1laan/tp-sport",
+    "autoload": {
+        "psr-4": {
+            "Sport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "1lAaN",
+            "email": "88386103+1lAaN@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
